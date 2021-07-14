@@ -1,0 +1,17 @@
+@media only screen and (max-device-width: 360px) {
+    body {
+        width: 360px;
+    }
+    .container {
+        width: 350px;
+    }
+    .banner {
+        flex-wrap: wrap;
+    }
+    .banner-text, .banner-image {
+        width: 100%;
+    }
+    .players {
+        grid-template-columns: 1fr;
+    }
+}

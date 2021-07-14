@@ -1,0 +1,51 @@
+/* ----------------------------
+         Custom property
+----------------------------- */
+:root {
+    --body-bg-color: teal;
+}
+
+/* ------------------------
+         Global styles
+-------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1440px;
+    background-color: var(--body-bg-color);
+}
+.container {
+    width: 870px;
+    margin: auto;
+    border: 1px solid orange;
+}
+.grid-cont {
+    display: grid;
+}
+.flex-cont {
+    display: flex;
+}
+
+/* ------------------------------
+         sec-banner style
+------------------------------- */
+.banner {
+    justify-content: center;
+}
+.banner-text, .banner-image {
+    width: 50%;
+    border: 1px dashed white;
+}
+
+/* --------------------------------
+         sec-players style
+--------------------------------- */
+.players {
+    border: 1px dashed white;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player {
+    border: 1px dashed white;
+}
