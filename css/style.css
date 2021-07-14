@@ -57,6 +57,9 @@ body {
     margin-top: 30px;
     padding: 10px 30px;
 }
+p {
+    font-weight: 400;
+}
 /* ------------------------------
          sec-banner style
 ------------------------------- */
@@ -74,6 +77,10 @@ body {
 .banner-text {
     color: white;
 }
+.banner-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
 .banner-image img {
     width: 100%;
     border-radius: 2px;
@@ -86,6 +93,7 @@ body {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin: 80px 0;
     /* border: 1px dashed white; */
 }
 .player {
@@ -111,11 +119,13 @@ body {
     width: 100%;
     /* padding: 60px; */
     grid-template-columns: repeat(2, 1fr);
-    gap: 80px;
+    color: #0A0826;
+    gap: 90px;
     /* border: 1px dotted red; */
 }
-.highlights-text {
-    color: black;
+.highlights-text h1 {
+    font-size: 48px;
+    font-weight: 700;
 }
 .highlights-image img {
     width: 100%;

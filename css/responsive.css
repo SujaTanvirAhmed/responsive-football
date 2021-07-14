@@ -1,4 +1,5 @@
 @media screen and (max-width: 360px) {
+    /* Global */
     body {
         width: 360px;
     }
@@ -8,13 +9,29 @@
         width: 330px;
     }
 
-    .banner-text, .banner-image {
+    /* sec-banner and sec-players */
+    .banner-text, 
+    .banner-image {
         width: 100%;
     }
-    .banner, .players {
+    .banner-text h1 {
+        font-size: 36px;
+    }
+    .banner, 
+    .players {
         grid-template-columns: 1fr;
     }
     .banner {
         gap: 30px;
+    }
+
+    /* sec-hilights */
+    .highlights {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    .highlights-text h1 {
+        font-size: 30px;
     }
 }
