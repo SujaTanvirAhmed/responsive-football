@@ -36,7 +36,6 @@ body {
 }
 .container-tiny {
     width: 485px;
-    border: 1px solid red;
 }
 .container-wide,
 .container-narrow,
@@ -141,6 +140,7 @@ p {
 }
 .supporters {
     grid-template-columns: 3fr 1fr;
+    gap: 30px;
 }
 .supporters-image img {
     width: 100%;
