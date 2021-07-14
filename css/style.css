@@ -10,11 +10,12 @@ font-family: 'Poppins', sans-serif; */
 ----------------------------- */
 :root {
     --body-bg-color: white;
-    --banner-bg-color: blue;
-    --players-bg-color: whitesmoke;
-    --highlights-bg-color: whitesmoke;
+    --banner-bg-color: beige;
+    --players-bg-color: white;
+    --highlights-bg-color: beige;
+    --supporters-bg-color: white;
+    --footer-bg-color: beige;
     --btn-color: orangered;
-    --footer-bg-color: whitesmoke;
 }
 
 /* ------------------------
@@ -82,6 +83,7 @@ p {
 .banner-text h1 {
     font-size: 64px;
     font-weight: 700;
+    color: dodgerblue;
 }
 .banner-image img {
     width: 100%;
@@ -142,7 +144,7 @@ p {
        sec-supporters style
 -------------------------------- */
 .sec-supporters {
-    background-color: white;
+    background-color: var(--supporters-bg-color);
     padding: 80px 0;
 }
 .supporters {
@@ -196,4 +198,14 @@ footer .social i {
     margin: 5px;
     border-radius: 50%;
     cursor: pointer;
+}
+footer .copyright {
+    margin-top: 8px;
+}
+footer .copyright .dev {
+    margin-top: 15px;
+}
+footer .copyright .dev span {
+    font-style: italic;
+    color: dodgerblue;
 }
