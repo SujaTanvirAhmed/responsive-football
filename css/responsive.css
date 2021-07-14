@@ -1,17 +1,20 @@
-@media only screen and (max-device-width: 360px) {
+@media screen and (max-width: 360px) {
     body {
         width: 360px;
     }
-    .container {
-        width: 350px;
+    .container-wide, 
+    .container-narrow, 
+    .container-tiny {
+        width: 330px;
     }
-    .banner {
-        flex-wrap: wrap;
-    }
+
     .banner-text, .banner-image {
         width: 100%;
     }
-    .players {
+    .banner, .players {
         grid-template-columns: 1fr;
+    }
+    .banner {
+        gap: 30px;
     }
 }
