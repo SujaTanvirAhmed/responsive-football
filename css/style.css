@@ -9,11 +9,12 @@ font-family: 'Poppins', sans-serif; */
          Custom property
 ----------------------------- */
 :root {
-    --body-bg-color: teal;
+    --body-bg-color: white;
     --banner-bg-color: blue;
+    --players-bg-color: whitesmoke;
     --highlights-bg-color: whitesmoke;
     --btn-color: orangered;
-    --footer-bg-color: white;
+    --footer-bg-color: whitesmoke;
 }
 
 /* ------------------------
@@ -57,7 +58,9 @@ body {
     padding: 10px 30px;
 }
 p {
+    font-size: 16px;
     font-weight: 400;
+    color: #6C6C6C;
 }
 /* ------------------------------
          sec-banner style
@@ -88,6 +91,10 @@ p {
 /* --------------------------------
          sec-players style
 --------------------------------- */
+.sec-players {
+    background-color: var(--players-bg-color);
+    margin: 80px 0;
+}
 .players {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
@@ -99,7 +106,7 @@ p {
     background-color: white;
     padding: 10px;
     border-radius: 3px;
-    /* box-shadow: 5px 5px 15px lightgray; */
+    box-shadow: 5px 5px 15px lightgray;
 }
 .player img {
     width: 100%;
@@ -170,6 +177,7 @@ p {
 ----------------------------- */
 footer {
     background-color: var(--footer-bg-color);
+    padding: 80px 0;
 }
 footer .container-tiny {
     text-align: center;
