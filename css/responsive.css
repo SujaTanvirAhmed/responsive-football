@@ -39,6 +39,12 @@
     .supporters {
         grid-template-columns: 1fr;
     }
+    .supporters-image {
+        order: 2;
+    }
+    .supporters-call {
+        order: 1;
+    }
     .supporters-call .image-holder {
         left: 80px;
     }

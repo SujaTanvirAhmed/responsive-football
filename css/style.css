@@ -14,7 +14,8 @@ font-family: 'Poppins', sans-serif; */
     --players-bg-color: white;
     --highlights-bg-color: beige;
     --supporters-bg-color: white;
-    --footer-bg-color: beige;
+    --bg-color: beige;
+    --footer-bg-color: white;
     --btn-color: orangered;
 }
 
@@ -151,12 +152,16 @@ p {
     grid-template-columns: 3fr 1fr;
     gap: 30px;
 }
+.supporters-image {
+    order: 1;
+}
 .supporters-image img {
     width: 100%;
     height: auto;
 }
 .supporters-call {
     text-align: center;
+    order: 2;
 }
 .supporters-call .image-holder {
     width: 120px;
