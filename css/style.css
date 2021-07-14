@@ -14,7 +14,7 @@ font-family: 'Poppins', sans-serif; */
     --players-bg-color: white;
     --highlights-bg-color: beige;
     --supporters-bg-color: white;
-    --bg-color: beige;
+    --sponsors-bg-color: beige;
     --footer-bg-color: white;
     --btn-color: orangered;
 }
@@ -177,6 +177,32 @@ p {
     font-size: 26px;
     font-weight: 700;
     color: black;
+}
+
+/* ---------------------------
+        sec-sponsors style
+---------------------------- */
+.sec-sponsors {
+    background-color: var(--sponsors-bg-color);
+    padding: 80px 0;
+}
+.sec-sponsors h1 {
+    color: darkslateblue;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sponsors {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.sponsors-logo {
+    text-align: center;
+}
+.sponsors svg {
+    width: 90%;
+    height: auto;
 }
 
 /* ----------------------------

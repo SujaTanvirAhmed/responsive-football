@@ -48,4 +48,16 @@
     .supporters-call .image-holder {
         left: 80px;
     }
+
+    /* sec-sponsors */
+    .sec-sponsors h1 {
+        font-size: 22px;
+    }
+    .sponsors {
+        grid-template-columns: 1fr;
+    }
+    .sponsors svg {
+        width: 50%;
+        height: auto;
+    }
 }
