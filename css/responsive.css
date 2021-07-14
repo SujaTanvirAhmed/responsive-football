@@ -34,4 +34,12 @@
     .highlights-text h1 {
         font-size: 30px;
     }
+
+    /* sec-supporters */
+    .supporters {
+        grid-template-columns: 1fr;
+    }
+    .supporters-call .image-holder {
+        left: 80px;
+    }
 }

@@ -132,6 +132,39 @@ p {
     border-radius: 2px;
 }
 
+/* -------------------------------
+       sec-supporters style
+-------------------------------- */
+.sec-supporters {
+    background-color: white;
+    padding: 80px 0;
+}
+.supporters {
+    grid-template-columns: 3fr 1fr;
+}
+.supporters-image img {
+    width: 100%;
+    height: auto;
+}
+.supporters-call {
+    text-align: center;
+}
+.supporters-call .image-holder {
+    width: 120px;
+    overflow: hidden;
+    position: relative;
+    left: 70px;
+}
+.supporters-call .image-holder img {
+    width: 230%;
+    height: auto;
+}
+.supporters-call h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
 /* ----------------------------
           Footer style
 ----------------------------- */
